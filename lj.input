@@ -3,7 +3,7 @@ atom_style atomic
 boundary p p p
 timestep 0.001
 
-read_data collision.atoms
+read_data config.atoms
 
 
 mass 1 1.0

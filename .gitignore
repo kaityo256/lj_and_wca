@@ -1,3 +1,4 @@
 lmp_serial
 *.lammpstrj
+config.atoms
 log.lammps

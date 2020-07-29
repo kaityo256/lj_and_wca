@@ -1,5 +1,6 @@
 from math import cos, sin, sqrt
-import random 
+import random
+
 
 class Atom:
     def __init__(self, x, y, z):
@@ -53,4 +54,4 @@ def save_file(filename, atoms):
     print("Generated {}".format(filename))
 
 
-save_file("collision.atoms", add_ball())
+save_file("config.atoms", add_ball())
